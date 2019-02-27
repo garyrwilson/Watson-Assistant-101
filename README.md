@@ -11,8 +11,8 @@ The workshop materials for each part of the lab are contained in the subfolders 
 * [Lab 1: Build A Chatbot](./1-Basics)
 * [Lab 2: Adding Rich Content](./2-Images)
 * [Lab 3: Implement Your Bot!](./3-Live)
-* [Lab 4: Enhancing Your Chatbot (I)](./4-Advanced)
-* [Lab 5: Enhancing Your Chatbot (II)](./5-Advanced)
+* [Lab 4: Enhancing Your Chatbot (I)](./4-Advanced1)
+* [Lab 5: Enhancing Your Chatbot (II)](./5-Advanced2)
 
 You should _follow the materials in this order_.  
 

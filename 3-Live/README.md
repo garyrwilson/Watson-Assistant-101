@@ -56,4 +56,4 @@ Well done! You've now built a basic chatbot that runs in a live, web-hosted envi
 
 A **Preview Link** is the simplest of _integrations_ available to you from within _**Watson Assistant**_. A number of others are available to setup here, including popular messaging platforms such as **Slack** and **Facebook Messenger**, and each of them have step-by-step instructions. Feel free to try them out and get your chatbot working in other live environments!
 
-Next you should go to [Lab 4: Enhancing Your Chatbot](../4-Advanced) to further build out and enhance your chatbot by using more advanced _**Watson Assistant**_ functionality.
+Next you should go to [Lab 4: Enhancing Your Chatbot (I)](../4-Advanced1) to further build out and enhance your chatbot by using more advanced _**Watson Assistant**_ functionality.

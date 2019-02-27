@@ -130,4 +130,4 @@ Now every time we enter this node, our context will be reset. Check this works b
 ## Summary
 You've reached the end of the first Advanced Chatbot lab! Your chatbot has been extended using _**slots**_ and _**context variables**_.
 
-Now try out [Lab 5: Enhancing Your Chatbot (II)](../5-Advanced), where we'll show you how to apply further intelligence to your responses by applying some more advanced _**Watson Assistant**_ functionality.
+Now try out [Lab 5: Enhancing Your Chatbot (II)](../5-Advanced2), where we'll show you how to apply further intelligence to your responses by applying some more advanced _**Watson Assistant**_ functionality.

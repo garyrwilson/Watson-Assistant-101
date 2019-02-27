@@ -2,7 +2,7 @@
 In this final lab we'll personalise our chatbot by requesting the user's name at the start of a conversation, and reuse it when appropriate. We'll use _context variables_ for this, and also show you how to use _expressions_ to do some more advanced data manipulation.
 
 ## Requirements
-- Successful completion of [Lab 4: Enhancing Your Chatbot (I)](../4-Advanced)
+- Successful completion of [Lab 4: Enhancing Your Chatbot (I)](../4-Advanced1)
 
 ## Agenda
 - manipulating values with _**Expressions**_
