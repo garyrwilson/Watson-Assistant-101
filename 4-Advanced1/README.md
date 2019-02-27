@@ -29,7 +29,7 @@ The user might provide values for multiple _slots_ at once. For example, the inp
 
 _**Watson Assistant**_ can provide us with some help here, by looking for any _**System Entities**_ we might want to collect. _System entities_ can be used to automatically recognise a broad range of values for the object types they represent. For example, the **@sys-number** system entity matches any numerical value, including whole numbers, decimal fractions, or even numbers written out as words.
 
-In your Watson Assistant skill, go to `Entities`, `System Entities`, and turn on the ones we'll need here: `sys-currency` (for _spend_), `sys-number` (for _data usage_) and `sys-date` (for _new contract date_).
+In your _**Watson Assistant**_ _skill_, go to `Entities`, `System Entities`, and turn on the ones we'll need here: `@sys-currency` (which will pick out _spend_), `@sys-number` (to pull out _data usage_) and `@sys-date` (to recognise the user's _new contract date_).
 
 ![](./images/04-system-entities.jpg)
 
@@ -61,7 +61,7 @@ Slot  |  Response
 `$dataPerMonth`  |  `How much data (Gb) do you typically use per month?`
 `$contractStart`  |  `When do you need your new contract to start?`
 
-**(7)** When all of the _slots_ are full, note that we respond with a confirmation message that includes and plays back the `context variables` to the user:
+**(7)** When all of the _slots_ are full, we should respond with a confirmation message that includes and plays back the `context variables` to the user:
 ```
 So you're looking for a new contract starting $contractStart, with around $dataPerMonth Gb of data per month, costing in the region of £$costPerMonth each month.
 ```

@@ -1,5 +1,5 @@
 # _**Watson Assistant 101**_: Lab 1 - Build A Chatbot
-In this lab we'll start to build a chatbot using _**Watson Assistant**_. This basic chatbot will recommend a new mobile phone for a user based on their feedback about previous experiences with phones.
+In this lab we'll start to build a chatbot using _**Watson Assistant**_. This basic chatbot will recommend a new mobile phone for a user based on their feedback about previous experiences they've had with phones.
 
 ## Requirements
 - [IBM Cloud account](https://cloud.ibm.com/)
@@ -27,7 +27,9 @@ In this section we are going to create a **_Watson Assistant_** instance on IBM 
 
 ![](./images/01-assistant-service.jpg)  
 
-**(2)** Create the service with a unique name: we'd suggest something like `Watson Assistant-eventname-yourinitials`, e.g. `Watson Assistant-DSA-GRW`
+**(2)** Create the service with a unique name: we'd suggest something like `Watson Assistant-eventname-yourinitials`, e.g. `Watson Assistant-DSA-GRW`.
+
+A significant number of _**IBM Cloud**_'s capabilities work using a freemium-type model called a `Lite` plan. This means that you can experiment with cloud and AI services - including building live applications such as the chatbot we'll create here - at no cost.
 
 Scroll down and ensure you are using the `Lite` plan, then hit `Create`.
 
@@ -139,7 +141,7 @@ Select `Add Entity`, then enter a _entity_ name of `brand` and hit `Create Entit
 
 ![](./images/13-entity-apple-recommendations.jpg)
 
-_**Watson Assistant**_ can also recommend _**synonyms**_ for your _**entity**_ values. The recommender finds related _synonyms_ based on contextual similarity extracted from a vast body of existing information, and uses natural language processing techniques to identify words similar to the existing _synonyms_ in your _entity_ value.
+We do this because it highlights how _**Watson Assistant**_ can also recommend _**synonyms**_ for your _**entity**_ values. The recommender finds related _synonyms_ based on contextual similarity extracted from a vast body of existing information, and uses natural language processing techniques to identify words similar to the existing _synonyms_ in your _entity_ value.
 
 As you might expect, _synonyms_ allow us to use multiple values to represent a single value. In this case, we will translate the use of either _Apple_ or _iPhone_ to a `@brand` value of `Apple`, so select `iphone` from the list presented, and then hit `Add selected`.
 
