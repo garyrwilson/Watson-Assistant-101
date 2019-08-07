@@ -139,7 +139,7 @@ Select `Entities` from the menu bar, then `Create Entity`. Next enter an _entity
 
 ![](./images/13-entity-apple-recommendations.jpg)
 
-_**Watson Assistant**_ can also recommend _**synonyms**_ for your _**entity**_ values. The recommender finds related _synonyms_ based on contextual similarity extracted from a vast body of existing information, and uses natural language processing techniques to identify words similar to the existing _synonyms_ in your _entity_ value.
+We do this because it highlights how _**Watson Assistant**_ can also recommend _**synonyms**_ for your _**entity**_ values. The recommender finds related _synonyms_ based on contextual similarity extracted from a vast body of existing information, and uses natural language processing techniques to identify words similar to the existing _synonyms_ in your _entity_ value.
 
 As you might expect, _synonyms_ allow us to use multiple values to represent a single value. In this case, we will translate the use of either _Apple_ or _iPhone_ to a `@brand` value of `Apple`, so select `iphone` from the list presented, and then hit `Add selected`.
 
@@ -177,7 +177,7 @@ Take a look at the [Watson Assistant documentation](https://cloud.ibm.com/docs/s
 
 A _**dialog**_ uses the _intents_ and _entities_ that are identified in the user's input, plus _context_ from the application that uses _**Watson Assistant**_, to interact with the user and ultimately provide a useful response. Our _dialog_ tree should help the user choose a new mobile phone based on an existing preference or a characteristic important to the user.
 
-**(2)** Select `Dialog` from the menu bar, and then hit `Create dialog`.
+**(2)** Select `Dialog` from the menu bar, and then hit `Create`.
 
 ![](./images/19-dialog-create.jpg)
 

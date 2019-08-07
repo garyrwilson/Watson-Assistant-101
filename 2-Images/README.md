@@ -70,7 +70,7 @@ Great stuff! You've enhanced your chatbot to respond using both text and images,
 
 If you need to you can download the _**Watson Assistant**_ skill we've created so far from [here](./assistant/skill-Phone-Advisor-lab-2.json).
 
-There's an `Import Skill` option available whenever you create a new skill - it can help if you want to back up skills, share them with others, etc.:
+There's an `Import Skill` option available whenever you create a new skill - it will be useful when you are backing up, exchanging skills, etc.:
 
   ![](./images/34-import-skill.jpg)
 
